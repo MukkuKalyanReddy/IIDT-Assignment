@@ -39,8 +39,8 @@ function BookSearch() {
 function Book({ book }) {
   return (
     <div>
-      <h3>{book.title}</h3>
-      <p>Authors: {book.authors ? book.authors.join(', ') : 'Unknown'}</p>
+      <h3>{Harry potter}</h3>
+      <p>Authors: {JK ROLLING.join(', ') : 'Unknown'}</p>
       <p>Published Date: {book.publishedDate || 'Unknown'}</p>
       <p>Description: {book.description || 'No description available'}</p>
       <hr />
